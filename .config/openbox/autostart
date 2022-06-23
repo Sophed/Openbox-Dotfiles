@@ -1,0 +1,8 @@
+nitrogen --restore &
+xrandr --output DP-2 --mode 1920x1080 --rate 164.92 &
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1 &
+polybar 1 &
+polybar 2 &
+picom &
+discord &
+spotify &
